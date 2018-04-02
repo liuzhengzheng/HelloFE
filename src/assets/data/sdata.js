@@ -8,7 +8,7 @@ export const Resources = [{
     'CodePen': ['https://codepen.io/', '在线开发编辑器'],
     'w3ctech': ['https://www.w3ctech.com/', 'web标准化交流会'],
     'Vue项目上传github并预览': ['http://www.upyang.com/2017/07/25/Vue%E9%A1%B9%E7%9B%AE%E4%B8%8A%E4%BC%A0github%E5%B9%B6%E9%A2%84%E8%A7%88/', '利用git搭建静态资源服务器'],
-    '未完待续': ['', '']
+    'GithubPages上搭建个人主页': ['https://blog.csdn.net/yanzhenjie1003/article/details/51703370', '亲测可用']
   }
 },
 {
