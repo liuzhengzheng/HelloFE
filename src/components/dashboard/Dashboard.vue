@@ -2,7 +2,7 @@
   <div class="wrapper">
     <i-row v-for="(item, index) in res" :key="index" :gutter="10">
       <div :id="item.code" class="res-name"><h2>{{item.name}}</h2></div>
-      <i-col v-for="(itemdata, indexkey) in item.data" :key="indexkey" :xs="8" :sm="6" :md="4">
+      <i-col v-for="(itemdata, indexkey) in item.data" :key="indexkey" :xs="12" :sm="6" :md="4">
         <i-card :bordered="false">
           <a :href="itemdata[0]" target="_blank">{{ indexkey }}</a>
           <div class="detail">{{ itemdata[1] }}</div>
