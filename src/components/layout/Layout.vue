@@ -3,7 +3,7 @@
     <i-layout>
       <i-sider breakpoint="md" collapsible :collapsed-width="78" v-model="isCollapsed" width="160">
         <div class="layout-logo">
-          <img src="../../assets/logo.png" alt="logo"/>
+          <img src="../../../static/logo.png" alt="logo"/>
         </div>
         <i-menu :active-name="activeName" theme="dark" width="auto" :class="menuitemClasses">
           <i-menuitem v-for="(item, index) in nav" :key="index" :name="item.code">
