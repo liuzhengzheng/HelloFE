@@ -22,7 +22,7 @@
 </template>
 <script>
 import {Layout, Sider, Menu, MenuItem, Content} from 'iview'
-import { Resources } from '@/assets/data/sdata.js'
+import { Resources } from '../../../static/data.js'
 export default {
   data () {
     return {
