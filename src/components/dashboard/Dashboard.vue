@@ -17,7 +17,7 @@
 
 <script>
 import { Card, Row, Col, BackTop } from 'iview'
-import { Resources } from '@/assets/data/sdata.js'
+import { Resources } from '../../../static/data.js'
 export default {
   data () {
     return {
