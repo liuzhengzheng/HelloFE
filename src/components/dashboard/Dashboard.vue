@@ -9,14 +9,11 @@
         </i-card>
       </i-col>
     </i-row>
-    <i-backtop :height="100" :bottom="200">
-      <div class="top">返回顶端</div>
-    </i-backtop>
   </div>
 </template>
 
 <script>
-import { Card, Row, Col, BackTop } from 'iview'
+import { Card, Row, Col } from 'iview'
 import { Resources } from '../../../static/data.js'
 export default {
   data () {
@@ -27,8 +24,7 @@ export default {
   components: {
     'i-card': Card,
     'i-row': Row,
-    'i-col': Col,
-    'i-backtop': BackTop
+    'i-col': Col
   }
 }
 </script>
